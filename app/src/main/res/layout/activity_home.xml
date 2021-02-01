@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Categories" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/science_and_technology_button"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:background="@drawable/button_home"
+                android:text="Science and Tech"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBackgroundCardView"
+                android:textSize="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/sport_button"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_home"
+                android:text="Sport"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBackgroundCardView"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/art_and_culture_button"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:background="@drawable/button_home"
+                android:text="Art and Culture"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBackgroundCardView"
+                android:textSize="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/entertainment_button"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_home"
+                android:text="Entertainment"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBackgroundCardView"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/education_button"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:background="@drawable/button_home"
+            android:text="Education"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBackgroundCardView"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/history_button"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_home"
+            android:text="History"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBackgroundCardView"
+            android:textSize="20dp"
+
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/med_button"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:background="@drawable/button_home"
+                android:text="Med"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBackgroundCardView"
+                android:textSize="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/game_button"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_home"
+                android:text="Game"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBackgroundCardView"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/business_button"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:background="@drawable/button_home"
+                    android:text="Business"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBackgroundCardView"
+                    android:textSize="20dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/psychology_button"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/button_home"
+                    android:text=" Psychology"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBackgroundCardView"
+                    android:textSize="20dp"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-2dp"
+        android:background="@color/colorPrimaryDark"
+        app:itemIconTint="#ffff"
+        app:itemTextColor="#ffff"
+        app:menu="@menu/bottom_navigation"
+        />
+
+</LinearLayout>

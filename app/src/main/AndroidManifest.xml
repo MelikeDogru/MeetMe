@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meetme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BusinessActivity"></activity>
+        <activity android:name=".PsychologyActivity" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".MedActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".EducationActivity" />
+        <activity android:name=".EntertainmentActivity" />
+        <activity android:name=".ArtandCultureActivity" />
+        <activity android:name=".CreateEvent" />
+        <activity android:name=".SportActivity" />
+        <activity android:name=".SciTechActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DiscoverActivity" />
+        <activity android:name=".EventDetailActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@drawable/edit_text" />
+
+        <activity android:name=".SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
